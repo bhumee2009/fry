@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="nav-header">
+            <button type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">The Rosary High School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#campus life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#what's new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact us">Conatct Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="welcome">
+        <div class="announcements">
+            <marquee id="marqueeStyle" onmmouseover="this.stop();" onmouseout="this.start();" width="60%;" direction="right">*** Feel free to ask queries on school@gmail.com***</marquee>
+        </div>
+        <img id="school" class="img-responsive" src="school.jpg">
+    </section>
+
+
+    <div class="page-header" id="campus life">
+        <h5 class="text-capitalize">campus life</h5>
+    </div>
+    <center>
+        <div class="row">
+            <div class="campus life_mainDiv">
+                <img class="img-responsive" src="https://gbshse.gov.in/sites/default/files/styles/institution_slideshow_modal/public/institution_assets/11.34/lib%202.jpg?itok=vH509jlf">
+                <h5 class="text capitalize "><kbd>school library</kbd></h5>
+                <hr>
+                <p>Spacious room with reading facility, our library will soon be the cynosure of many, with new editions of paperbacks donated by the PTA.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="campus life_mianDiv">
+                <img class="img-reponsive" src="https://i.ytimg.com/vi/XzRPwPMq2pU/maxresdefault.jpg">
+                <h5 class="text-capitalize "><kbd>science laboratory</kbd></h5>
+                <hr>
+                <p>The school has a well stocked, state of art laboratory. Students are guided to perform science experiments under the guidance of the laboratory assistant and science teachers.</p>
+            </div>
+
+            <div class="campus life_mainDiv">
+                <img class="img-reponsive" src="https://gbshse.gov.in/sites/default/files/styles/institution_slideshow_modal/public/institution_assets/11.34/staffroom.jpg?itok=8VXYG_Ci">
+                <h5 class="text-capitalize "><kbd>art room</kbd></h5>
+                <hr>
+                <p>One of its kind, the school will have an Art Room with specially designed tables giving the students an edge to hone their artistic skills in a conducive atmosphere.</p>
+            </div>
+        </div>
+    </center>
+
+    <div class="page header" id="achievements">
+        <h5 class="text-capitalize">achievements</h5>
+    </div>
+    <div class="bg-primary" data-toggle="collapse" data-target="#achievements">
+        <h5>The Kids for Tigers Ambassador for the year 2017-18<i class="fa fa-sort-desc"></i></h5>
+    </div>
+    <div id="achievements" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="https://2.bp.blogspot.com/-PnMrkrj1UD4/WnNU3YN-unI/AAAAAAAB760/a4QTIxvFrBYD9PX-wMo37cK5a3nj-qDsACLcBGAs/s320/IMG_20180201_112417.jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h5 class="text-left text-success text-capitalize">The Kids for Tigers Ambassador for the year 2017-18</h5>
+
+        </div>
+    </div>
+    
+    <div class="page_header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whatsNew">
+    <h2 class="text-capitalize">what's new</h2>
+    </div>
+    <ul class="list-group">
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 cool-sm-12 col-xs-12 whatsNew_li">
+        <h4>Renovation of the Art Room</h4>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGRgYGhgYGBgYGRgYGBgYGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQhISE0NDQ0NDQ0NDQ0NDQ0NjU0NDE0NDExNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xABSEAACAQICAwoHCgsHAwUAAAABAgADEQQhBRIxBiJBUWFxgZGx0RMyM1KSobIjQlNyc4KiwdLhBxQWJDRUYpTC0+IVQ2Nkk8PwRLPENYOjpOT/xAAaAQACAwEBAAAAAAAAAAAAAAABAgADBQQG/8QALhEAAgIAAwYFBAIDAAAAAAAAAAECEQMEMRIhMkFRcRMUImGhBVKB8JGxFTNC/9oADAMBAAIRAxEAPwDItHIjgSVoAUcppFB4ZwWVRfawJHig8AJgvBL8LSPzan2Jdxzha7kuqZpbWp6994OCx/4YRcYP1qjzHCKf9sxTsity7GcKY8+j/wDJ9mSFMefQ66ndNH8aX9ZwvThB/IMcYlPh8F04P/8APIMkZwojjoenU744octH03+1NQYhfhdHnnwjD/x5IVV8/R37u4/2ZA7zKdSBtp/McseoscuWT8G3nJ0VV+t5ax1QFfGwZzHkUdH6ygGrxy5TIsP/AE7g2rUHXkM5BuRkeCfgdf8AWT7UkKdTz+qsn2puphAylr6M3tsteoNvzhK7018zRx5qrj/dEjQtmYq1vOforp3yYFfgap0VlltqSfBYE82Jcf8AkxCin6vhDzYsjtxEAxVL4kZ3q2GZ90vYceU7jRTlqNNibkopJOZJsMzOPqYZCD+bYfYbEYxSRltC+FNyOLhnXaD/AEel8RYUU43D+S6BHK5HmMe0ZvFPMeyFlC1OASniWAZWexzFnHZfKTFPFcdT0/vk8LgtZFP4sr3AOt4cIW5Sutl1SwNHf5MfvI75XRp/x+/kBSOKG01/m1D3GWFq4j/Nenf+GL+zv8l/9hY40YT/ANG37wvdICl7ExisQP1q/Nf+GU62lsUhGs9VQeFlts5xLX9ln9UfoxCfYmfpLBlChNB6e3NqiuDs4Ao4/XAwqMW1oXRpLGjhq9NP7o66axg98/Sg7oVcA3wGMHM4P+3J/irD+7xw6b/wQUNUei/gGN0OKHD1oO6E/KXEj3y+gBF4NvNxo6D90cI3Hixzp/VJRNmPRfwON1WIHmH5s3dyelHxTOKirZR5ove475z9Z2Atr4jZ75bfxzW/B0p1qhz2Hbt2juhRVjRiotpI9CpNYWAtLKMOKU6IlhDGM5lvWHEIoO8UNsh5CJICMohVEcU5jSVUpVezsl9Q71Q194RwkbPrjJjss8TU/wBBD69eb2I0bTdtZ1ueO5HYYL+w6PmH0m74KL44qSSZkrjrbMSenDIfrMIMd/mh04VO4zT/ALBoeafSbvkhufoeYfSbvgobxo/qMv8AHf8AM0+nCJ9iI4wfrNA8+EX+SZrLufoeafSbvjjc5Q81vSMNB8aH6jn8bidZbeFoNmMqeHFNzY8Dikth05yzTxQsPdMH87CknpIw5uZtDc5h/Nb0jJDc1Q4n9IwbwrGhXMq6N0goaxqaPswK3bCuoGtlckUBs5TBYjELcjX0ceahVHZSE0V3NUODXHM/3RHcvR85/SHdDbqiLEhd7zG8KvFo/wBCqPqEXhF8zAddUfxibB3KUT79+tfsxvySpee/0fswbxliw6mLU1SD7ngOipUDfNHhds6/QX6NS+IJmfkjR89/ofZmpQq0MOi0mrICgtv3RWtmbkXkpleLOMo0mXgI1Zd43xT2SqNLYf4el/qJ3wiaRoOdRa1Ms2QAqISSeIA5w0yhanC4dU1VvRosbC5bEajHlK+EFuoQwpp+r0P3ofzZuJuRHwl/mffCfkivwn0P6pXTNHx4dTCWgm38Wo2z/wCqH8y8kMKn6tR/el/mTcG48fCD0P6pIbjV+E+h/VJRPGw+v9mIMGv6tS/el+3KOPw4VltRRL3zWqKhPQGNvvnVfkWPhfof1RDcQt7+FzH7H9UlBWNh3r/ZhjDpwUOrEp3SQoDgpP0YhPsToBuLX4Ueh/VJDcWvwv0P6oKY3jYfU55aZvklS3EKwPr1IdQfNr/6v9E3l3Fj4QegftQq7jB8IPQP2pKYPGw+vwc1XvY+V2e/cn+DZN38HC+UNvr4bZSz+Rd/7xfRPfNnc5oAYUOA4YNyWsbkntkSK8XEi4tJmyghkEiqwixjhHtHk7RRqFPIQZNWnPjTDeYOv7pGppUsLan0vuhtFvgT6HRioOMdckKg4x1zjKWDZhdc98q22ZsbDOXU3O4k5iix5RnIneg0suo6ujqVccYhFYcc5b8mcV8C8mm5jFH+5fqkp9BfBh9x1IYSamc7Q3F41/FpH5zova0uD8H+kPgh0VaX25KZFhQ+42QZNZh/kFpH4E9FWl9uM24bSY2YdzzVaX8ySmFYMfuR0AMmDOC0hgq9BzTrKyOACVLgmxFwbqxHrlYVH89vSbviuRdHKOStM9IEkJ5t4Wp57ek3fHFep57+m3fBY3kZdfg9KE5zTG5p61Y1VdACqrqumv4t+G/LOYbFVALl39M986TcjWZjU1mY21LXJPn32xozae4TEyjhFtvQqruQqfCUc/8AB2c2+ljR+5NkqpUNWmdV1chaWqd6LWB1srzqrzC3T+J0iO8R0c0YKUkup0wIkhPLQDwdpkwG4/WZTtHf/j31+D1FZMNPLRrcZ9IyY1+M+kZNoP8Aj5dfg9TvHBnlms9wLnM28Y8RP1Qqh+P6Rg2ieQfX4PUVhUM8tVH4/pHukxTfj+ke6TaD5B9fg9THRCJPLUptx/SPdCrSfj+ke6TaJ5B/d8HqIMKs8tFNxw/TbuksBXZqoQ3yZPfEg6x+6TaBLJVz+D1Hpk6YgwIRIxwUF1Yo0UJKPnECOJ0Y0FTvbWfrH2YQaAp+c/WO6Hw5HZ5rDRm6IW6tyVKLdGubz2XQrulIBdl2nj2g8lr7LhFOf7LEm3LlPZ8KpWkzAeKSfUIYrcU5qd7uheXEPx9sKuJfk9ffKiNU1QxUAHZnfgvwGU6OnaTFVDi7EKN44uTkByR1GT0RxbSRuJim4QPXCfjDcQ9cr4U6xIy3pseQ2DdhEuClBVBTsZah5I/heSP4OPqQBPGfwnD8+J46aH2h9U5C07/8KeCIxCVOBqar0qz39oTg2WVyW83Mq7w0QtGIk7Rop1pAao3pnSbjRnV5k7XnPVJ0u5HylcfF9p5Ecma4WvY6hBMPdQPc+kTeEwt1Pk+kSx6GXhca7o5YIbDlFx1kdoPVJKIVvEp/EP8A3KkgspZ6CO9JkgJMCMohFEBYQYZpzn2WllFJIAFybADjJyAgXG+XnPsmXsAPdafyie2sIj3KTLz6AxKqWai4Cgkk6uQAuTtlFAJ6xpzKhWv8G/VqmeUU1jSikcmVzEsZNy5dAghlMGFEMsU7By0r6LQ+HvwGpTHURf2h1yza8hoke7KLjyy9Hk9vrhRRjOkj0tBnCJBqIQRjBJxRooSWeWXzk1gaDXVTxqp61EODyTrRQ9zObwCWbEr5tOoR81wvYTPb8Gt6TcoB6xPFsAn5xiV46dcdbAz2fQra1G/GiH6N5VHRnZmuCLNBM6Kcy+zaefYNrPT2ZVU4Rwuo+ud/hjfDpzL22nArk4z2VU4uB0nVgaNGbi6o9AwB39T4ynj94B/DNCZuDPur58FM9euPqmlOaWpbh8KHiiiiDnnn4Ul8keRh6xPL3E9W/CiN5SPKw9meVPFnyNjJcCBGKPGlTNBEK2wzf3Fm71PiofpNMGpsM3dxPj1PiL7UMTkzS9L7HYCYe6nyXSJuzD3U+S6RLHoZWDxrucumwc0cRqewc0mJSejjoiawiwawqwBEw3y9PsmXtGj3al8pT9tZRPjL09k0NF+Xo/K0vbWFCT4ZfvI9T08/5vWH+G/smeVUuCeoboKo/F6th7x78twZ5fTjz5Gd9O0kGJhRAKZYAiamiTUZQGhf0kfK0/4IfggdB/pI+VTsSHkU4uh6cBCLA7YZTGMFj25IoopAHhNHTjKqrqDeqFvc52Frwn5Qt5i9ZmJFH25dTReXw27o2tC1y+JZjYF0qXts8Qn6p6rofSq0sLTdld9alTAVELtfUHQBzmeQaBa2ITl1geZkZT6jO1r6Uq0cFR8ETrbynbIg7x1APSo2ZxoWyjNqOzXSj0TAY1HwylTe1ri2a7/YeI8k4HF4qzvkd7U5OBx3Tn9A7oqlDEDDBGFNmGurMSTcb1ix4r+qehLhMOxLNQpkk3JKAknbc8s6IYihdczMlG6su6V0s+G16moGJFEEFsgC1bPei/EOmdNh6msqtaxIBIuDYkZi44tk8g3WYkNidUIAqqoA2Ak77W9dpt7hdKMHdRmhW9syFZTbbyg+qBw2laK446jUa50elxTKXSRIuNUjjGY22Ow8YInI7qfwkLhKngUpCo4AL3Yoq6wuBexubWPTKaOhSTD/AIU/JUj+0w9Qnkzmdhuy3RrjcPhqyDVBNVWU7Vcal1J4eMchE4wmVz1NvJf6l+R7xCRjiIdyGqbDN3cV49T5NfamFV2Hmm9uQAWtVA2BLDocSI5M0/S17HYqMphbqfJdIm+Nkw91PkukSx6GThP1rujlU2Dm+syQkm8Sn8Q/9x5ASlnpIO4phBCiCEIsA458ZenslzCMRUQjaHQjnDqZSJ3y9PZL+C8pT+Up+2sKKsThl+8jaq6RqHDC5O/DBr2O0tkOKYtObeMqatEgKtjrC9s8yeKYiyzF5Gd9N4ZdwxEOhlcGFQys0WgzHKB3PD85Xlqr6lXuhbx9A/pFH47ep37oeRz4zpV3PRUhBBLthFhMNk84otaKGhT5xvHvGivAbFlzRjEVUtt1rdeX1zq6zM+GPg01yj66rnewqMLgDPINfmBnH4NrOh/bX2hOs0TUbUdQrMTrjVQEubvbeixzzvLcN76OfMQuDkCw1SsXfEPTLOQCg1gpNl2DW4Ba1r3vNHC7u6PiPSqK/ABY3JJGqUNiDkNmeeyVMVhECoxcrcXdX1tdGGViqKTc2JIAylvBYzB+FNOmKRLrbXam5ZwEvYs4BOQ2EjZL0pSpNIzZrCSuLbfMhpvAYnFpTrahpa4CFWFQsLMduqhIJuLXA4Y25bc5Ww1QsMRTu1gVAquQFJIuFUXvcZS3uh0iAlPwbslgmqKYKFV1CMgvJz7ZVp1cSuq7VsVq3FmNV9W/BcZ3HJaWJNPcjkeJBqnf4R1+GxaI6Uy7aoFUsWFj4+sLqRddXWI258lp5t+Eugxx10u4emhUqNvjLs6J3NPT1EYigaZXwiB9dah8GreEVQuq5QXAsTc2FzlOe3ZbqVxrKEQIqZFrhtZjlmwHigC1xxmVy3HRFHGYZqqJqOjBNYstxbfMqg2PMqy1UTVNr32esA/XAVK+s1uC99txwQ9Y748y+yJzT1NnJt7KXcgTEDImOJWaCHfYZu7jqmtXdj76mW+mnfMJtk2NxR92Pybe0kMTmzK9L7M7tJh7qfJHnHbNtdkxd1HkTzjtlj0MfD413RyasSF5AQObWJ7SY4MGhyHT2mTEpZ6WO5IneQqsxyBtzbY94Oo4EiJJl3HizIAbe5qb8ZKAkzSwCW/F8ySaguTtNnS2znmZj3BKHg8GnsCXaFe6UmUkarE3sQRZ1N7beCNzORu4rrv/AKNzG1VVKivqlrEIutmpvfWsDtsdh5cpiqYOvmS2sCTwZ3PBxWjqY2LVqir6fCUYy2lW8sLJAyCmOxlRoFjWi3K54pflHPUh7oEGF3IfpKfHqHqV4eRzY/C+zPShJLBqZMGOYJOKNriNCQ+c4ooopqhKR3y847Zu1MW1KlXZDZgHHCPGdL7OQzAUzZxfiVwRe6ubH4isNnNGjuaFxFcGvY5s6VrFQvhH1RsBYm2w5X2bBlBUMU+sCDvhmDw3HbNSro6l4NnUWILapuxyU7NvJMJtsu2rMpxo28ZulxNVUSoyuqABVdVIUDnlWnpF1IZdRWHCiKDsscxyEjpmbeTVo20+ouyuhexWMqVGDM+YGWdguZyHEOTlh10izAX2jhy6yP8AmyY52/8ADLNPFOMtUHoz9UD3jJmthqd1GdjrAXJsADx5dNxLdT3u+VrqDlfLMjVbly6iJj4CqzPvrjI5WsL5TSEpm95rZOPpT7krSSyEmJWdw7bJq7i/Ln5N/aSZTbJrbjxbE2/w29eoYYnPmH6WvZndLMfdR5E847ZsqZj7p/It0dssehjQ413Rxq7B09phBFYaiHjDX9NohKGelg7Q4k1WQBhFMg2oR2BZN6BYEG3CeM8vdC3la++Xphg0jYsYqO5BgZJIJTCKZBgwMlrQIaOGkIHJljcZ+kpz1T6nlBmmhuMa+JTkRvZ++FHJmXUWvZnoiNCGBpwoMsMIksUaKGiHztFFFENQU6IAHXuDq6jXHJ4Ig9k52bysSr2zJpi3SjCMnyBONpvojJoMGw+rwi69PDMGstmIh1qnYCTfPiueOOyXliMyTKkkyFSAwIuARfiOYPNLC085dxOEBDNnvRa4I25kA+ieqMV3vojo1L1B8nf6VpeSmPC8mfTZR3wWCTxH/YK9TtLuAo61QsdilhbhOsE7oklba9h4ut5o6UwSJRVggDFhcgcanKY4nV6Yw7PhWe29RkufjEqO2coJXKOzS9jVyUtqD7khJCQEmIp3IdprbkWBxA+TYdICD6pkNNLcgfzgfEf6oYnPmF6W/ZnoCzI3TeRbo7ZqI0y90h9xaWmNh8a7o45HJVRxX9ZJkgYJNg6e2TE5z0saSCAyQMGDJAyBse++Xp7IcGVyc16eyGBkAtWFBkgYMGIGAYMGkrwIMkGkIEY5TQ3Cn3cfEf2h3zKc5TV3BeW/9t/WyRonJm+F9meh0jCQaGEWWGESvFFaKMQ+eIoopWagp0Gj8yvKlMdo+uc+Ju6ObNPiL6nAhWo3/LKKaLOVl27MuyEfBDgHAL8/DOgxjqDqrnbIn6hfm2yoFllmNZj/ANnX5Li15eGjAVcXNmI4eRu+XlUQsiYGldmfhtGqgVVucjm3KxM0sJglXYBckk8u9G3qjiFpvaFPfvCzU0yAmjay8JeiR0OLj6U88E7HdFpB3w7g2AYpcAADJ1OXFsE44QYzVqjT+n34bvqSEkJASQlJojmaO5E/nC/FfsMzTNHcoLYlOVX9amGJz5h+l9md8syt0R9xaaaGZe6HyLS4xocS7nGoch0wgkEG8B5WHVqn644M52j0cJWggkgYMSQMA452jp7IUGBJzXnPYYQGQVasKDHBggZIGQYLeIGQkhAEdzlNncD5U8lI+0kw3ORm9uGHuznipgfSTujxOPNy9LXszvqZhAYBIS8sMULeKB8Ko9+OsRSEs+f4ooopp2PNfBNvUPI46mU98yJq4M7xPnyIjTdUa7rmec9sQWOoJuSNpNubgMkbDhHXHMhqmNHUwTVU4WXrEicUg9+npDvkIWdaSDSn+Np569Bv2R62kqQtvrcGSsdnRGpkJaXf3Fhyr7QnPCaOO0lTdCqkknVtvWGxgeETNErnqaeRfpfcmI4MiJK8Q77ETNDcy35zTtxOPotM1nHGOuG0RUK1FcEixbMcGR740Tnx2nHXkz0hTMzT5Hgm5pnppEna7dR7pVx+I11IBc5bLE3MtMiOqMhH3gH7THrC90QMMmDe3iHbyDgHGY/4o/mHrXvlDizcjj4cVVoEDJAwowj7NXPnEIuAqcS+ke6TZYfNYS5lZjmvOfZMIDLP9mubeKLHjPERxcsmNHNwuo6CYdlirN4Vvf8ABUvCUHA1tZb3G9Oe9PHLQ0eo21B0L/VCLo9PPboUDvgUJCyzmE91so3jiaS6Pp+e/wBHukxgafKedu4Q+Gwefw+jMiocjNncZiAjOSDmiDLn+6ROBpHIqfTcdhlmhTRPEQDIA5sdnOYYxaKMfNRnFpI6U6XA4OsiRqaYyysOW/3TnyoO1VJ5u+HTIZBR80R/wZ4KstJmLM5uTc7e6NDa/N1CKQlHmcWsOOFKqOARrybJ0eZfJELzTw1MlNpBBNss8xbhlVGhkc8cOyhJZiT03BV0MW2ux6B9cIdzS2uS3Uv2ZuaNS4Wb+I1UTUsLttNswBLEjjlJ2cQmgE426x3Q6aAp/tH5x+qbDC0dHkJbM9dz1PhU9Lt3yGJ0PQQXKA+vtmu1WVMYdYQEtmPVwtEKSKYB49hlVsOg4+s980a1PeNKFoGlZbCUktQYpLxSYpr5o6hHEQgodtssI6gbOyFp1uWVLQlMZyAsvCrHNfnleIwiFj8aMi1YnhgAuUQEgUHDmJXPGYNRJ2kCSNQ8frjg8siFkwsgR1JhVfjkFEkFhAwghUvBWhFMjJYZRD0BKoMsUG5YpC2Fk1WDRoRGisZMnqckUe8UAbPLYooo5WFENRiikAdRobas0MSd8Yoo6K3qUXkRFFAQeM0UUBCpifFMy2iigLIkRCRRQjCk02xRQELCbIm4YooQEV2RxFFIEJHiikIOJJYopCBFkxFFIBhFiO2KKEiJiWMNFFFYS2IQRRRSE4oopCH/2Q==" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The Rosary High School Cujira Bambolim has recently renovated their Art Room.</p>
+        </li>
+         <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 cool-sm-12 col-xs-12 whatsNew_li">
+        <h4>The Hall</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lFjZ2AxWvYvQr9HO3P5uF1fprUh8uO4Z-w&usqp=CAU" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The Rosary High School Cujira Bambolim has recently made a hall used for prayers and many school events.</p>
+        </li>
+    </ul>
+
+    <section id="contact us">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61522.46633724882!2d73.80097446368175!3d15.476138597823995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbf494482c5c9%3A0x25e9ac88bc33832f!2sThe%20Rosary%20High%20School!5e0!3m2!1sen!2sin!4v1623927666756!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12"> <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a>
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form>
+                <span>Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="text" required>
+                <br><br>
+                <span>Comment: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="comment" required>
+                <br><br>
+                <input type="submit" value="submit" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
